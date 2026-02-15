@@ -2,7 +2,7 @@ from models import Book
 
 
 class BookRepository:
-    def __init__(self):
+    def __init__(self) -> None:
         self.books = []
 
     def add(self, book: Book) -> None:
