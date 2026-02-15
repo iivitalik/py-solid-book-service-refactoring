@@ -1,13 +1,13 @@
 from __future__ import annotations
 
 from app.models import Book
-from services import (
+from app.services import (
     ConsoleDisplay,
     ReverseDisplay,
     JsonSerializer,
     XmlSerializer,
 )
-from validators import BookValidator
+from app.validators import BookValidator
 
 
 def main(book: Book, actions: list[tuple[str, str]]) -> str | None:
