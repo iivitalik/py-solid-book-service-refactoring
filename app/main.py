@@ -1,4 +1,6 @@
-from models import Book
+from __future__ import annotations
+
+from app.models import Book
 from services import (
     ConsoleDisplay,
     ReverseDisplay,
